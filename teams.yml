@@ -1,0 +1,18 @@
+teams:
+  - name: lfdt-staff
+    maintainers:
+      - jwagantall
+      - LF-Europe
+      - ryjones
+    members:
+      - thelinuxfoundation
+
+repositories:
+  - name: .github
+    teams:
+      lfdt-staff: maintain
+    visibility: public
+  - name: governance
+    teams:
+      lfdt-staff: maintain
+    visibility: public
